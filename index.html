@@ -6,19 +6,336 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qurbani Haat</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/92cc3b9713.js" crossorigin="anonymous"></script>
     <!-- bootstrap stylesheet  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <h1>Qurbani Goru kinbo amra online a</h1>
+    <header>
+        <!-- navigationbar part -->
+        <nav class="navbar navbar-expand-lg navbar-light qurbani-bg-color">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                    <!-- <img src="images/logo.png" alt="" width="50" height="30"> -->
+                    <h5><strong>Qurbani</strong>Haat</h5>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#catalog">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cows">Cows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#goats">Goats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sheeps">Sheeps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container my-4 p-5">
+            <div class="card qurbani-bg-color text-danger">
+                <img src="images/banners/banner-3.png" class="img-fluid" alt="...">
+                <div class="card-img-overlay text-center">
+                    <h3 class="card-title">Qurbani Haat</h3>
+                    <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in
+                        to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <button class="btn qurbani-btn-color">Read More</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- catelog part -->
+        <section class="container my-4 p-5">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="bg-warning d-flex justify-content-between align-items-center">
+                        <h1 class="text-danger ms-2">Cow</h1>
+                        <img src="images/categories/cow-3.png" alt="" width="150px">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="bg-danger d-flex justify-content-between align-items-center">
+                        <h1 class="text-white ms-2">Goat</h1>
+                        <img src="images/categories/cow-3.png" alt="" width="150px">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="bg-success d-flex justify-content-between align-items-center">
+                        <h1 class="text-warning ms-2">Sheep</h1>
+                        <img src="images/categories/cow-3.png" alt="" width="150px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- carousel part -->
+        <section class="container my-4 p-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active p-5 qurbani-bg-color">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-lg-7">
+                                <h1>Deshi Original Cow's Farm</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button class="btn qurbani-btn-color">Visit Farm</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banners/banner.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item p-5 qurbani-bg-color">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-lg-7">
+                                <h1>Australian Cows Farm</h1>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, rem?</p>
+                                <button class="btn qurbani-btn-color">Visit Farm</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banners//banner-4.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item p-5 qurbani-bg-color">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-lg-7">
+                                <h1>Indian Cows Farm</h1>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, eum.</p>
+                                <button class="btn qurbani-btn-color">Visit Farm</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banners/banner-6.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- cows part -->
+        <section class="container my-4 p-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Borishali Bull</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-8.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Norshingdhi Bull</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-9.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Shatkira Bull</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chapainowabgonj Bull</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Maymanshinghi Bull</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chittagonghi Bull</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Borishali Bull</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/cows/cow-8.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Norshingdhi Bull</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="m-2 text-center">
+                            <button class="btn qurbani-btn-color">Veiw More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Goats part -->
+        <section class="container discount-bg-color my-4 p-5" height: 400px;>
+            <div class="row d-flex justify-content-between align-items-center rounded-3 p-5">
+                <div class="col-lg-5 col-md-6 col-12">
+                    <h4>DEAL OF EVERYDAY</h4>
+                    <p>There are a big offer for this week.Every Monday We provide a free home delevary service and 10%
+                        discount.So please Contact with us,we will try to our best services.</p>
+                    <h6><span class="text-warning text-center">60,000TK</span></h6>
+                    <a class="" href=""><button class="btn qurbani-btn-color">10% Discount</button></a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div width="200px">
+                        <img class="img-fluid ms-2" src="images/categories/cow-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <section class="container mt-4 p-5">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <img class="mt-3" src="images/categories/cow-3.png" alt="" width="70px">
+                    <h6 class="text-white">Qurbani Haat</h6>
+                    <p class="text-white"><i class="fas fa-map-signs"></i><span class="ms-2"
+                            style="font-size: 13px;">Sylhet-3100,Bangladesh</span></p>
+                    <p class="text-white"><i class="fas fa-phone-alt"></i><span class="ms-2"
+                            style="font-size: 13px;">+88017700000</span></p>
+                    <p class="text-white"><i class="fas fa-envelope"></i><span class="ms-2"
+                            style="font-size: 13px;">qurbanihaat@gmail.com</span></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h5 class="text-white mt-3">Menu List</h5>
+                    <a class="text-white text-decoration-none ms-2" style="font-size: 13px; display: block;"
+                        href="#catalog">Catalog</a><br>
+                    <a class="text-white text-decoration-none ms-2" style="font-size: 13px; display: block;"
+                        href="#catalog">Products</a><br>
+                    <a class="text-white text-decoration-none ms-2" style="font-size: 13px; display: block;"
+                        href="#catalog">About Us</a><br>
+                    <a class="text-white text-decoration-none ms-2" style="font-size: 13px; display: block;"
+                        href="#catalog">Contact</a><br>
 
-
-
-
-
-
-
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h5 class="text-white mt-3">Cattle List</h5>
+                    <p class="text-white"><span class="ms-2" style="font-size: 13px;">Cows</span></p>
+                    <p class="text-white"><span class="ms-2" style="font-size: 13px;">Goats</span></p>
+                    <p class="text-white"><span class="ms-2" style="font-size: 13px;">Sheeps</span></p>
+                    <p class="text-white"><span class="ms-2" style="font-size: 13px;">Camels</span></p>
+                    <p class="text-white"><span class="ms-2" style="font-size: 13px;">Others</span></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h5 class="text-white mt-3">Customer Reviews</h5>
+                    <p class="text-white"><span style="font-size: 13px;">your desire our commitment</span>
+                    </p>
+                    <input class="form-control" type="text" placeholder="enter your email"><br>
+                    <textarea class="form-control" name="text" id="" cols="20" rows="5"
+                        placeholder="review our site"></textarea><br>
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <hr class="bg-secondary" height="100px">
+            <p class="text-center text-white mt-4"><small>Copyright ©2021 All rights reserved</small></p>
+        </section>
+    </footer>
     <!-- bootstrap script -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

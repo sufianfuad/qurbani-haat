@@ -1,0 +1,13 @@
+.qurbani-bg-color{
+    background-color: #7880aa;
+}
+.discount-bg-color{
+    background-color: #7880aa;
+}
+.qurbani-btn-color{
+    background-image: linear-gradient(to bottom, #f074a5 0%, #e70c60 100%);
+    color: aqua;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
